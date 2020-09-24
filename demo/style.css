@@ -5,6 +5,8 @@
 }
 
 :root {
+  --clr-light: #ffffff;
+  --clr-dark: #222222;
   --clr-accent: #00d600;
 }
 
