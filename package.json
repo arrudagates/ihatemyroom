@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "demo": "tsc ./demo/main.ts && serve ./demo",
+    "demo": "serve ./demo",
+    "start": "tsc && serve ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "serve": "^11.3.2"
-  }
+  },
+  "dependencies": {}
 }
